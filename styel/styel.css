@@ -1,0 +1,487 @@
+:root {
+    --main-color: #1e202b;
+    --second-color: #323544;
+    --li-color: #009ad8;
+}
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: var(--main-color) !important;
+}
+
+.loGo {
+    width: 70px;
+}
+
+
+h1 {
+    font-family: "Roboto", sans-serif;
+    color: #ffffff;
+    font-size: 16px;
+    margin: 0 0 5px;
+    font-weight: 700;
+}
+
+small {
+    font-family: "Roboto", sans-serif;
+    color: #bfc2c8;
+    font-size: 10px;
+    line-height: 15px;
+    font-weight: 300;
+    width: 100px;
+    margin-left: 0;
+    padding: 0;
+}
+
+.content {
+    margin-left: 10px;
+}
+
+
+.collapse ul li a {
+    color: white;
+    padding: 0 20px !important;
+    width: fit-content;
+    border: 2px solid transparent;
+    transition: all 0.3s ease;
+}
+
+.collapse ul li a.active {
+    color: var(--li-color) !important;
+    border-color: var(--li-color);
+
+}
+
+.collapse ul li a:hover {
+    color: var(--li-color);
+    border-color: var(--li-color);
+}
+
+li {
+    margin-left: 15px;
+}
+
+.home {
+    min-height: 100vh;
+    background-color: var(--main-color);
+    width: 100%;
+    position: relative;
+    padding-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+}
+
+.bannar {
+    background-image: url('../assets/banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+    position: relative;
+}
+
+.backgr {
+    background-color: var(--main-color);
+    flex: 1;
+    min-height: 300px;
+}
+
+
+
+.subscrip-container {
+    display: flex;
+    align-items: center;
+    background-color: #33374e;
+    border-radius: 50px;
+    padding: 5px;
+    width: 100%;
+}
+
+.subscribe-button {
+    background-color: #00a0e9;
+    width: 120px;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    padding: 12px 25px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-right: 5px;
+    transition: background-color 0.3s;
+}
+
+.move {
+    position: relative;
+    margin-top: -40px;
+    margin-bottom: 20px;
+    top: 70px;
+    padding: 0 15px;
+}
+
+.weather {
+    top: 200px;
+    left: 0;
+    right: 0;
+}
+
+
+.one {
+    background-color: var(--second-color);
+    color: white;
+}
+
+.two {
+    background-color: var(--main-color);
+    color: white;
+}
+
+.child-1 {
+    background-color: #2d303d;
+}
+
+.child-11 {
+    background-color: #222530;
+}
+
+.CountryName {
+    color: #bfc1c8;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 400;
+}
+
+.temp {
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    font-size: 5.625rem;
+    line-height: 8.4375rem;
+    font-weight: 700;
+    margin: 0 30px 0 0;
+}
+
+.imgIcon {
+    width: 80px;
+}
+
+.conditionText {
+    color: var(--li-color);
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 300px;
+}
+
+.maxTemp {
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 700;
+}
+
+.maxWind {
+    color: #bfc1c8;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 300;
+}
+
+.dayName {
+    color: #bfc1c8;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+}
+
+.col-md-4:first-child {
+    border-bottom-left-radius: 5px !important;
+}
+
+.col-md-4:last-child {
+    border-bottom-right-radius: 5px !important;
+}
+
+
+footer {
+    background-color: #262936;
+    width: 100%;
+    padding: 30px 0;
+}
+
+.footer {
+    background-color: #262936;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0px;
+}
+
+.subscription-container {
+    display: flex;
+    align-items: center;
+    background-color: #33374e;
+    border-radius: 50px;
+    padding: 5px;
+    width: 100%;
+    max-width: 600px;
+}
+
+.email-input {
+    flex-grow: 1;
+    background: transparent !important;
+    border: none;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 15px 20px;
+    outline: none;
+}
+
+.email-input::placeholder {
+    color: white !important;
+}
+
+
+
+.subscribe-button:hover {
+    background-color: #0088cc;
+}
+
+.li {
+    width: 50px;
+    height: 50px;
+    background-color: var(--main-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.sp i {
+    color: var(--li-color);
+    z-index: 99;
+}
+
+.li:hover i {
+    color: white;
+}
+
+.li:hover {
+    background-color: var(--li-color);
+}
+
+.last ul li p {
+    color: #bfc1c8;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 300;
+}
+
+.last ul li i {
+    color: #bfc1c8;
+}
+
+.last ul:first-child li:first-child i {
+    color: #bfc1c8;
+    transform: rotate(20deg);
+}
+
+/* ##################### */
+/* ##################### */
+.main {
+    background-color: #1a1e2e;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.link-container {
+    background-color: #24283b;
+    border-radius: 30px;
+    padding: 20px 25px;
+    margin-bottom: 40px;
+    display: inline-block;
+    width: 100%;
+}
+
+.breadcrumb {
+    margin-bottom: 0;
+    background-color: #24283b;
+    padding: 0;
+}
+
+.breadcrumb-item,
+.breadcrumb-item a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+    content: "→";
+    color: #6c757d;
+    padding: 0 10px;
+}
+
+.info-card {
+    background-color: #242738;
+    border-radius: 10px;
+    padding: 30px;
+    height: 100%;
+    position: relative;
+}
+
+.map-placeholder {
+    height: 250px;
+    background-color: #1e212f;
+    border-radius: 5px;
+    margin-bottom: 40px;
+}
+
+.contact-icon {
+    color: #00a0e9;
+    font-size: 20px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.company-info {
+    margin-bottom: 15px;
+    color: #b4b6bd;
+}
+
+.main-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+p {
+    color: #b4b6bd;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    background-color: #242738;
+    border: 1px solid #2d3143;
+    border-radius: 30px;
+    color: #ffffff;
+    padding: 15px 25px;
+    margin-bottom: 20px;
+}
+
+.contact-form textarea {
+    min-height: 150px;
+    border-radius: 20px;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+    color: #6c757d;
+}
+
+.submit-btn {
+    background-color: #00a0e9;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    padding: 12px 35px;
+    float: right;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.submit-btn:hover {
+    background-color: #0082c0;
+}
+
+.location-pin {
+    margin-top: 2px;
+}
+
+.contact-details {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.contact-text {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.address-indented {
+    padding-left: 30px;
+    margin-top: -5px;
+    margin-bottom: 15px;
+}
+
+/* ########################## */
+/* .weather {
+    position: relative;
+    margin-top: 20px;
+    padding: 0 15px;
+    width: 100%;
+} */
+
+
+@media (min-width: 768px) {
+    .footer {
+        flex-direction: row;
+    }
+}
+
+@media (max-width: 767px) {
+    .bannar {
+        height: 200px;
+    }
+
+    body {
+        background-color: var(--main-color);
+    }
+
+    .home {
+        height: 100vh;
+        padding-bottom: 20px;
+    }
+
+    .weather .row {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    footer {
+        margin-top: 350px;
+    }
+
+    .footer {
+        flex-direction: column;
+        padding: 20px 0px;
+    }
+
+    .footer .subscription-container {
+        margin-bottom: 20px;
+    }
+}
